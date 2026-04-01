@@ -44,6 +44,7 @@ object TaxSystem extends App {
             product.price + calculateTax(product, state, year, rules)
     }
 
+
     val sp = State("SP")
     val rj = State("RJ")
 
